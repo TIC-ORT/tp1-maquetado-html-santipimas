@@ -20,3 +20,80 @@
     background: rgb(90, 250, 242);
 
 }
+.Cuadradochiquito{
+    background-color: rgb(196, 194, 194);
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    top: 17%;  
+    left: 2%;
+}
+   
+.cuadradoadentrodelcuadrado{
+    background-color: rgb(173, 172, 172);
+    width: 50%;
+    height: 55%;
+    position: absolute;
+    top: 23%;  
+    left: 24%;
+}
+   
+.Lineas{
+    background-color: rgb(182, 182, 182);
+    position: absolute;
+    width: 65%;
+    height: 6px;
+    top:115%;
+    left: 16%;
+}
+.Lineas::before,
+.Lineas::after { /*Busque como hacer la copia de un elemento sin tener q agregar otros dos div*/
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    background-color: rgb(182, 182, 182);
+    left: 0%;
+}
+.Lineas::before {
+    top: -15px;
+}
+.Lineas::after {
+    top: 15px;
+}
+   
+.CuadradoL{
+    background-color: rgb(78, 78, 78);
+    width: 8%;
+    height: 25px;
+    position: relative;
+    top: 390px;  
+    left: 113px;
+}
+.LineaDentroDelCuadrado{
+    background-color: rgb(182, 182, 182);
+    width: 6%;
+    height: 5px;
+    position: absolute;
+    top: 71%;  
+    left: 124px;
+    z-index: 1;
+}
+   
+.Cuadrado1delNav{
+    background-color: rgb(53, 53, 53);
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    top: 80%;  
+    left: 2%;
+}
+   
+.Cuadrado2delNav{
+    background-color: rgb(252, 213, 87);
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    top: 125%;  
+    left: 2%;
+}
